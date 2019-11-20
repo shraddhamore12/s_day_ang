@@ -22,4 +22,4 @@ fi
 sudo docker build -t myang .
 
 # start the container
-sudo docker run -itd -p 7000:80 --name myang_c myang
+sudo docker container run -itd -p 7000:80 --name myang_c myang
